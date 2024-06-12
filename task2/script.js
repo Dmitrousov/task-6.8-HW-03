@@ -4,8 +4,8 @@ consoleLog.addEventListener('click', () => {
     alert('Служит для вывода информации в консоль')
 });
 
-const alert = document.querySelector('#alert');
+const alertElement = document.querySelector('#alert');
 
-alert.addEventListener('click', () => {
+alertElement.addEventListener('click', () => {
     alert('Служит для вывода диалогового окна с кнопкой ОК')
 });
