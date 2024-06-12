@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./forest.jpg');
+    background-size: cover;
+}
+
+a{
+    font-size: 2rem;
+    color: black;
+}
+
+p{
+    font-size: 3rem;
+    align-items: baseline;  
+}
+
+code{
+    font-size: 2rem;
+    align-items: baseline; 
+}
