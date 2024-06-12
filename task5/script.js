@@ -2,7 +2,7 @@ const inputField = document.querySelector('inputField');
 const duplicateField = document.querySelector('duplicateField');
 const submitButton = document.querySelector('submitButton');
 
-inputField.addEventListener('input', functiion() = {
+inputField.addEventListener('input', functiion(event) = {
     duplicateField.textContent = inputField.value
 });
 
