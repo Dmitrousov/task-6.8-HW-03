@@ -1,6 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./forest.jpg');
+  background-size: cover;
+}
+
+a{
+  font-size: 2rem;
+  color: black;
+}
+
 #trafficLight {
     width: 100px;
     height: 100px;
+    position: sticky;
     border-radius: 50%;
     background: black;
   }
