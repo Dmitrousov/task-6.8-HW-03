@@ -11,4 +11,5 @@ submitButton.addEventListener('click', function(event) {
     const inputValue = inputField.value;
     console.log(inputField.value);
     inputField.value = '';
+    doubleField.textContent = '';
 });
