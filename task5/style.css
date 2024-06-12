@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    font-size: 2rem;
+    color: black;
+}
+
+form{
+    font-size: 2rem;
+    color: black;
+}
+
+#submitButton{
+    font-size: 3rem;
+    border: red;
+
+}
+
+p{
+    font-size: 3rem;
+    align-items: baseline;
+    background: url('./forest.jpg');
+    background-size: cover;  
+}
