@@ -4,11 +4,11 @@ const submitButton = document.querySelector('submitButton');
 
 inputField.addEventListener('input', functiion() = {
     duplicateField.textContent = inputField.value
-} )
+});
 
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
     const inputValue = inputField.value;
-    console.log('');
+    console.log('inputField.value');
     inputField.value = '';
 });
